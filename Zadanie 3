@@ -1,6 +1,6 @@
 package com.company.lab01;
 import java.util.Scanner;
-public class Zad4
+public class zad3
 {
     public static void main(String[] args) {
         double f;
