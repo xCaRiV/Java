@@ -1,0 +1,19 @@
+package com.company.lab01;
+import java.util.Scanner;
+public class zad4 {
+    public static void main(String[]args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Jaki wymiar ma bok A?: ");
+        int a =scanner.nextInt();
+        System.out.println("Jaki wymiar ma bok B?: ");
+        int b =scanner.nextInt();
+        System.out.println("Jaki wymiar ma bok C? ");
+        int c =scanner.nextInt();
+
+        if (a +b > c){
+            System.out.println("Podany rójkąt jest prawidłowy.");
+        } else {
+            System.out.println("Niestety, ale podany trójkąt jest nieprawidłowy.");
+        }
+    }
+}
